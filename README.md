@@ -15,12 +15,8 @@ This code is a collection of tests that test the functionality of a patient iden
 ```cmd 
 python3 -m venv  venv
 ```
-2. Ensure that you have the necessary dependencies installed (see the requirements.txt)
-3. Run the following command to launch the test server 
-```cmd 
-cd api-server 
-flask run
-```
+2. Ensure that you have the necessary dependencies installed
+3. Change the BASE_URL(test_data.py) to point to your local url/remote api's 
 4. Run the follwing command 
 ```cmd
 pytest
